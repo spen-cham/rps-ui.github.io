@@ -1,0 +1,49 @@
+html {
+    background-color:lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(26, 8, 66);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-bottom{
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex: 1 1 0px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.rock, .paper, .scissors {
+    border-style: solid;
+    color:rgb(26, 8, 66);
+    background-color:rgb(209, 225, 235);
+    border-color:rgb(26, 8, 66);
+    padding: 30px;
+    font-size: 50px;
+    margin: 20px;
+    transition-duration: 0.2s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.rock:hover, .paper:hover, .scissors:hover {
+    background-color: lightyellow;
+    scale: 1.2;
+}
+
+.output {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
